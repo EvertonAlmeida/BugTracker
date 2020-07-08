@@ -10,5 +10,6 @@ namespace BugTracker.Models
         }
 
         public DbSet<Status> Status { get; set; }
+        public DbSet<Severity> Severities { get; set; }
     }
 }
